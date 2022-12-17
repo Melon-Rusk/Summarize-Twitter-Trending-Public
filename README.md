@@ -14,13 +14,22 @@
 - googleapiclient
 
 ## How to Use
-1. Clone the repository: git clone https://github.com/Melon-Rusk/Summarize-Twitter-Trending-Public
-2. Navigate to the project directory: cd Summarize-Twitter-Trending-Public
-3. Install the dependencies: pip install -r requirements.txt
+1. Clone the repository: ```console
+git clone https://github.com/Melon-Rusk/Summarize-Twitter-Trending-Public
+```
+2. Navigate to the project directory: ```console
+cd Summarize-Twitter-Trending-Public
+```
+3. Install the dependencies: ```console
+pip install -r requirements.txt
+```
 4. Update the credentials in the config file.
-5. Run the project: python main.py
+5. Run the project: ```console
+python main.py
+```
 
 _________
+
 ## Fetch Trending Topics
 - Fetch Trending Topics for the given location
 - Library used: *Tweepy*, *geocoder*
@@ -53,8 +62,7 @@ _________
 
 ----
 # Update Credentials in config to test it
-----
 Refrences Code used from:
--[text_processing.clean_text.py](https://gist.github.com/MrEliptik/b3f16179aa2f530781ef8ca9a16499af?permalink_comment_id=3970601) ((used almost as it is))
+-[text_processing.clean_text.py](https://gist.github.com/MrEliptik/b3f16179aa2f530781ef8ca9a16499af?permalink_comment_id=3970601) (used almost as it is)
 
 
