@@ -1,4 +1,5 @@
 # Fetch Trending Topic(s) from Twitter and create video around that and upload in Youtube
+-[Github Repo](https://github.com/Melon-Rusk/Summarize-Twitter-Trending-Public)
 _________
 ## Fetch Tredning Topics
 - Fetch Trending Topics for the given location
