@@ -1,7 +1,14 @@
-# Fetch Trending Topics from Twitter and Create a Video for YouTube
+# Create Engaging YouTube Videos from Twitter's Trending Topics
 ## Introduction
-- This project allows you to fetch trending topics from Twitter for a given location, create a summary for each trending topic, generate a video from the summary using Google Text-to-Speech and OpenCV, concatenate all the videos for the trending topics into one, and upload the final video to YouTube.
-## [Github Repo](https://github.com/Melon-Rusk/Summarize-Twitter-Trending-Public)
+This project allows you to easily fetch the trending topics on Twitter for a given location, create a summary for each topic, generate a video using Google Text-to-Speech and OpenCV, merge all the videos into one, and upload the final video to YouTube. You can use this project to quickly and easily create engaging content for your YouTube channel.
+## [GitHub Repo](https://github.com/Melon-Rusk/Summarize-Twitter-Trending-Public)
+
+## Features
+- Fetch trending topics from Twitter using the Tweepy and geocoder libraries
+- Create a summary for each trending topic using the Tweepy, nltk, and transformers libraries
+- Generate a video using the gtts, cv2 (OpenCV), and moviepy libraries
+- Concatenate multiple videos into one using moviepy
+- Upload the final video to YouTube using the googleapiclient library
 
 ## Dependencies
 - Tweepy
@@ -13,8 +20,8 @@
 - moviepy
 - googleapiclient
 
-## How to Use
-1. Clone the repository: 
+## Quick Start
+1. Clone the repository:  
 ```
 git clone https://github.com/Melon-Rusk/Summarize-Twitter-Trending-Public
 ```
