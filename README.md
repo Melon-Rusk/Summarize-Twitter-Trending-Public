@@ -14,17 +14,21 @@
 - googleapiclient
 
 ## How to Use
-1. Clone the repository: ```console
+1. Clone the repository: 
+```
 git clone https://github.com/Melon-Rusk/Summarize-Twitter-Trending-Public
 ```
-2. Navigate to the project directory: ```console
+2. Navigate to the project directory: 
+```
 cd Summarize-Twitter-Trending-Public
 ```
-3. Install the dependencies: ```console
+3. Install the dependencies: 
+```
 pip install -r requirements.txt
 ```
 4. Update the credentials in the config file.
-5. Run the project: ```console
+5. Run the project: 
+```
 python main.py
 ```
 
